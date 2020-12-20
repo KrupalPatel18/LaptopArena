@@ -1,0 +1,268 @@
+body{
+	padding-top: 40px;
+	font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+.nav1 .nav-item img:hover{
+	opacity: 0.7;
+}
+@media screen and (max-width: 576px) { 
+	.nav2{
+		margin-top: 40px;
+	}
+	.nav1 form{
+		width: 190px;
+	}
+	.nav1 .navbar-brand{
+		width: 100%;
+	}
+}
+
+@media screen and (max-width: 576px){
+	.more-stories{
+		margin-top: 800px !important;
+	}
+}
+@media screen and (min-width: 576px) and (max-width: 768px){
+	.more-stories{
+		margin-top: 315px !important;
+	}
+}
+@media screen and (min-width: 768px){
+	.more-stories{
+		margin-top:0px !important;
+	}
+}
+@media screen and (max-width: 991px) { 
+	.nav2 .nav-link:hover , .active:hover{
+		opacity: 0.7;
+	}
+}
+@media screen and (min-width: 992px){
+	.nav2 .nav-link{
+		border-bottom: 3px solid rgb(3, 150, 255,0); 
+	}
+	.nav2 .nav-link:hover{
+		border-bottom: 3px solid rgb(3, 150, 255,1); 
+		opacity: 0.8;
+	}
+	.nav2 .active:hover{
+		border-bottom: 3px solid rgb(242, 15, 7,1); 
+		opacity: 0.8;
+	}
+}
+.img-link{
+  position: relative;
+  font-family: 'Poppins', sans-serif;
+}
+
+.text-block {
+  position: absolute;
+  bottom: 0%;
+  width: 100%;
+  opacity: 0.5;
+}
+.text-block p{
+	margin: 0px;
+	color: white;
+	background-color: black;
+}
+.text-block h4{
+	margin: 0px;
+	color: white;
+	background-color: black;
+}
+.more-stories p{
+	margin: 0px;
+	padding: 0px;
+}
+.facebook{
+	position: relative;
+}
+.facebookTitle{
+	position: absolute;
+	top: 10px;
+	left: 60px;
+}
+.facebookLogo{
+	position: absolute;
+	top: 10px;
+	left: 10px;
+}
+
+#cat1:hover{
+	opacity: 0.7;
+	background-color: blue;
+}
+#cat2:hover{
+	opacity: 0.7;
+	background-color: blue;
+}
+#cat3:hover{
+	opacity: 0.7;
+	background-color: blue;
+}
+.cardLaptopMain{
+	padding: 25px;
+}
+.cardLaptop{
+	background: linear-gradient(90deg, rgba(18,194,233,1) 0%, rgba(196,113,237,1) 50%, rgba(246,79,89,1) 100%);
+	width: 83%;
+	margin: auto;
+	height: 550px;
+	border-radius: 20px;
+}
+.cardAccessories{
+	background: linear-gradient(90deg, rgba(101,153,153,1) 0%, rgba(244,121,31,1) 100%);
+
+	width: 83%;
+	margin: auto;
+	height: 550px;
+	border-radius: 20px;
+}
+.cardGaming{
+	background: linear-gradient(90deg, rgba(17,153,142,1) 0%, rgba(56,239,125,1) 100%);
+	width: 83%;
+	margin: auto;
+	height: 550px;
+	border-radius: 20px;
+}
+.catImg{
+	text-align: center;
+}
+.catImg img{
+	position: relative;
+	margin-top: 30px;
+	align-items: center;
+}
+
+.HeadingTextCard{
+	position: relative;
+	margin-top: 5px;
+	align-items: center;
+	text-align: center;
+	font-family: 'Open Sans', sans-serif;
+}
+.listCard{
+	position: relative;
+	margin-top: 40px;
+	margin-left: 5px;
+}
+.listCard ul li{
+	margin-top: 15px;
+	color: white;
+	list-style-type: none;
+	border-bottom: white 2px solid;
+	width: 80%;
+}
+
+
+.catSlider{
+	position: relative;
+	margin-top: 25px;
+	padding: 20px;
+}
+.itemHomeCate{
+	position: relative;
+	margin-left: 20px;
+}
+
+.dealOfDay{
+	background-color: #F4F2E6;
+	width: 100%;
+	margin: 10px;
+	padding: 80px;
+	display: flex;
+	  align-items: center;
+	  flex-direction: column;
+	font-family: 'Poppins', sans-serif;
+}
+
+.headText{
+	font-family: 'Anton', sans-serif;
+	text-align: center;
+}
+.subText{
+	position: relative;
+	margin-top: 20px;
+	text-align: center;
+}
+.itemOfDay{
+	position: relative;
+	margin-top: 20px;
+}
+.shopDealItem{
+	position: relative;
+	text-align: center;
+	width: 180px;
+	height: 50px;
+	font-family: 'Open Sans', sans-serif;
+	display: inline;
+	margin-top: 25px;
+	background-color: #E7AB3C;
+
+	color: white;
+}
+
+.TipSection{
+	margin-top: 20px;
+	margin-bottom: 20px;
+	padding: 20px;
+	background-color: #ECF3F7;
+}
+.TipSection container{
+	background-color: #ECF3F7;
+	
+}
+
+.tipHome{
+	font-family: 'Anton', sans-serif;
+	/* position: absolute;
+	top: 30%; */
+	position: relative;
+	margin-top: 50px;
+}
+.tipHome h1{
+	display: block;
+	text-align: center;
+}
+/* .tipCard{
+	display: inline;
+	margin: 10px;
+	background-color: white;
+	color: black;
+	border:  1px white solid;
+	border-radius: 15px;
+} */
+
+.TipSection container card{
+	
+}
+.brandsSection{
+	margin-top: 15px;
+	margin-bottom: 15px;
+	background-color: #F8F9FA;
+	padding: 10px;
+}
+.brandsSection container{
+	background-color: #F8F9FA;
+	margin-top: 15px;
+	padding: 25px;
+	align-items: center;
+}
+.item-logo{
+	margin: 10px;
+	background-color: white;
+	border: 1px black solid;
+	border-radius: 3px;
+	padding: 25px;
+	box-sizing: border-box;
+	width: 180px;
+	height: 150px;
+}
+.item-logo img{
+	height: 80px;
+	margin-bottom: 8px;
+	width: 100px;
+}
+

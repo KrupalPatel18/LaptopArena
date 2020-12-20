@@ -1,0 +1,16 @@
+.itemCard{
+    border: 1px solid black;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+.seeAll{
+    margin-top: 20px;
+}
+.seeAll h4{
+    display: inline;
+}
+
+.seeAll button{
+    float: right;                                                                                                          ;
+}
