@@ -1,3 +1,35 @@
+<?php
+$login = false;
+$showError = false;
+if($_SERVER["REQUEST_METHOD"]=="POST"){
+	
+	include 'utils/_dbconnect.php';
+	$username = $_POST["username"];
+		$password = $_POST["password"];
+			$sql = "Select * from signup where username = '$username' && password = '$password'";
+				$result = mysqli_query($conn,$sql);
+				$num = mysqli_num_rows($result);
+				if($num == 1){
+                    $row=mysqli_fetch_assoc($result);
+					$login = true;
+					session_start();
+					$_SESSION['loggedin'] = true;
+                    $_SESSION['username'] = $username;
+                    if($row["admin"]==true){
+                        header("location: /LaptopArena/admin");    
+                    }
+                    else{
+                        header("location: /LaptopArena/home2.php");
+                    }
+				}
+			
+			else{
+				$showError = "Invalid username and password";
+			}
+}
+
+	
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -44,7 +76,21 @@
 	
 <!-----------------------------Login form -------------------------->
 <div class="login-form">
-    <form action="/examples/actions/confirmation.php" method="post">
+    <form action="/LaptopArena/login.php" method="post">
+	<?php
+		if($login){
+		echo '
+        <div class="alert alert-success" role="alert"><strong>SUCCESSFULL!</strong> You are loggedin. </div>';
+		}
+
+		if($showError){
+		echo '
+		<div class="alert alert-danger" role="alert">
+		  <strong>ERROR!</strong> '.$showError.'</div>';
+		
+		}
+		
+	?>
         <h2 class="text-center">Sign in</h2>   
         <div class="form-group">
         	<div class="input-group">
@@ -81,7 +127,7 @@
 			<a href="#" class="btn btn-danger"><i class="fa fa-google"></i>&nbsp; Google</a>
         </div>
     </form>
-    <p class="text-center text-muted small">Don't have an account? <a href="#">Sign up here!</a></p>
+    <p class="text-center text-muted small">Don't have an account? <a href="signup.php">Sign up here!</a></p>
 </div>
 
 

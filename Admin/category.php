@@ -121,6 +121,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
           <option>desktop_category</option>
           <option>accessories_category</option>
           <option>gaming_category</option>
+          <option>custome_pc</option>
         </select>
       </div>
 
@@ -161,6 +162,13 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
           <option>Professional Desktop</option>
           <option>Laptop Accessories</option>
           <option>General Desk Accessories</option>
+          <option>PROCESSOR</option>
+          <option>MOTHERBOARD</option>
+          <option>RAM</option>
+          <option>STORAGE</option>
+          <option>CABINET</option>
+          <option>COOLER</option>
+          <option>GRAPHICS</option>
         </select>
       </div>
 

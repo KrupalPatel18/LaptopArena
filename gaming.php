@@ -43,7 +43,7 @@
             <h4 class="bold mt-4">
                 Gaming Laptop
             </h4>
-            <button type="button" class="btn btn-outline-primary btn-sm btnSeeAll"  id="Dell Laptop">See All</button>
+            <button type="button" class="btn btn-outline-primary btn-sm btnSeeAll"  id="Gaming Laptop">See All</button>
         </div>
         
         <hr>
@@ -81,7 +81,7 @@
             <h4 class="bold mt-4">
             Gaming Accessories
             </h4>
-            <button type="button" class="btn btn-outline-primary btn-sm btnSeeAll"  id="Dell Laptop">See All</button>
+            <button type="button" class="btn btn-outline-primary btn-sm btnSeeAll"  id="Gaming Accessories">See All</button>
         </div>
         
         <hr>
@@ -118,7 +118,7 @@
             <h4 class="bold mt-4">
             Gaming Desktop
             </h4>
-            <button type="button" class="btn btn-outline-primary btn-sm btnSeeAll"  id="Dell Laptop">See All</button>
+            <button type="button" class="btn btn-outline-primary btn-sm btnSeeAll"  id="Gaming Desktop">See All</button>
         </div>
         
         <hr>
@@ -156,6 +156,7 @@
 <?php
     include 'footer.php';
 ?>
+<script src="Js/category.js"></script>
 </body>
 
 </html>

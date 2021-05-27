@@ -65,20 +65,16 @@
                 <div class="Recommended mt-3">
                     <div class="row">
                         <div class="col-md-3 col-sm-12 m-3 recommendedCard">
-                            <img src="img/items/1.jpg" alt="" height="100px" class="img-fluid">
-                            <p  class="bold">how to enavle dark mode in whatsapp</p>
+                            <img src="img/items/js1.jpg" alt="" height="100px" class="img-fluid">
+                            <p  class="bold">Adding external javascript file into html document</p>
                         </div>
                         <div class="col-md-3 col-sm-12 m-3 recommendedCard">
-                            <img src="img/items/1.jpg" alt="" height="100px" class="img-fluid">
-                            <p  class="bold">how to see delete msg in whatsapp</p>
+                            <img src="img/items/js2.jpg" alt="" height="100px" class="img-fluid">
+                            <p  class="bold">Adding javascript to the head section of html document</p>
                         </div>
                         <div class="col-md-3 col-sm-12 m-3 recommendedCard">
-                            <img src="img/items/1.jpg" alt="" height="100px" class="img-fluid">
-                            <p  class="bold">how to change bio in Instagram</p>
-                        </div>
-                        <div class="col-md-3 col-sm-12 m-3 recommendedCard">
-                            <img src="img/items/1.jpg" alt="" height="100px" class="img-fluid">
-                            <p  class="bold">how to enavle dark mode in whatsapp</p>
+                            <img src="img/items/js3.jpg" alt="" height="100px" class="img-fluid">
+                            <p  class="bold">Using javascript events in html document</p>
                         </div>
                     </div>
                 </div>';

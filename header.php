@@ -3,7 +3,7 @@
     echo '
     <div class="nav1 p-1">
         <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark py-1">
-            <a class="navbar-brand" href="#">
+            <a class="navbar-brand" href="home2.php">
                 <img src="img/logos/logo1.png" width="30" height="30" class="d-inline-block align-top" alt=""
                     loading="lazy">
                 LaptopArena
@@ -26,16 +26,16 @@
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item mr-1">
                         <button type="button" class="nav-link bg-white text-dark font-weight-bold p-1 mt-1 rounded px-2"
-                            data-toggle="modal" data-target="#ModalSignin"><a href="login.php"  target="_blank">Login</a></button>
+                            data-toggle="modal" data-target="#ModalSignin"><a href="login.php"  target="_self">Login</a></button>
                     </li>
                     <li class="nav-item mx-1">
-                        <a class="nav-link text-light" href="aboutus.php" target="_blank">About Us</a>
+                        <a class="nav-link text-light" href="aboutus.php" target="_self">About Us</a>
                     </li>
                     <li class="nav-item mx-1">
-                        <a class="nav-link text-light" href="contactus.php"  target="_blank">Contact Us</a>
+                        <a class="nav-link text-light" href="contactus.php"  target="_self">Contact Us</a>
                     </li>
                     <li class="nav-item mx-1">
-                        <a class="nav-link text-light" href="privacy.php"  target="_blank">Privacy Policy</a>
+                        <a class="nav-link text-light" href="privacy.php"  target="_self">Privacy Policy</a>
                     </li>
 
                     <li class="nav-item py-2">
@@ -65,37 +65,37 @@
             <ul class="navbar-nav p-0 ">
 
                 <li class="nav-item mx-xl-5 m-0 mx-lg-4">
-                    <a class="nav-link text-center text-dark p-0" href="laptop.php" target="_blank"><img
+                    <a class="nav-link text-center text-dark p-0" href="laptop.php" target="_self"><img
                             src="img/header_logo/Laptop.png">
                         <h6>Laptops</h6>
                     </a>
                 </li>
                 <li class="nav-item mx-xl-5 m-0 mx-lg-4">
-                    <a class="nav-link text-center text-dark p-0" href="desktop.php" target="_blank"><img
+                    <a class="nav-link text-center text-dark p-0" href="desktop.php" target="_self"><img
                             src="img/header_logo/desktop.png">
                         <h6>Desktops</h6>
                     </a>
                 </li>
                 <li class="nav-item mx-xl-5 m-0 mx-lg-4">
-                    <a class="nav-link text-center text-dark p-0" href="Accessories.php" target="_blank"><img
+                    <a class="nav-link text-center text-dark p-0" href="Accessories.php" target="_self"><img
                             src="img/header_logo/accessories.png">
                         <h6>Accessories</h6>
                     </a>
                 </li>
                 <li class="nav-item mx-xl-5 m-0 mx-lg-4">
-                    <a class="nav-link text-center text-dark p-0" href="gaming.php" target="_blank"><img
+                    <a class="nav-link text-center text-dark p-0" href="gaming.php" target="_self"><img
                             src="img/header_logo/game.png">
                         <h6>Gaming</h6>
                     </a>
                 </li>
                 <li class="nav-item mx-xl-5 m-0 mx-lg-4">
-                    <a class="nav-link text-center text-dark p-0" href="custompc.php" target="_blank"><img
+                    <a class="nav-link text-center text-dark p-0" href="custompc.php" target="_self"><img
                             src="img/header_logo/custom.png">
                         <h6>Customize PC</h6>
                     </a>
                 </li>
                 <li class="nav-item mx-xl-5 m-0 mx-lg-4">
-                    <a class="nav-link text-center text-dark p-0" href="tips.php" target="_blank"><img
+                    <a class="nav-link text-center text-dark p-0" href="tips.php" target="_self"><img
                             src="img/header_logo/chat.png">
                         <h6>Tips and Tricks</h6>
                     </a>
@@ -111,8 +111,8 @@
         <div class="bg-dark col-sm-2 col-12 text-center text-light pt-sm-2"><b>Top-Stories</b></div>
         <div class="col-12 col-sm-10 pt-sm-2 bg-light border border-right-0 border-dark p-0">
             <marquee behavior="scroll" direction="left" onmouseover="this.stop();" onmouseout="this.start();"><a
-                    class="px-2" href="#">link1....</a><a class="px-2" href="#">link1....</a><a class="px-2"
-                    href="#">link1....</a><a class="px-2" href="#">link1....</a><a class="px-2" href="#">link1....</a>
+                    class="px-2" href="#">Asus</a><a class="px-2" href="#">HP</a><a class="px-2"
+                    href="#">Lenovo</a><a class="px-2" href="#">Dell</a><a class="px-2" href="#">Macbook</a>
             </marquee>
         </div>
     </div>';

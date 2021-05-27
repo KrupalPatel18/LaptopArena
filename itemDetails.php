@@ -64,7 +64,7 @@
                 '.$row["Specification"].'
                 <h3 class="bold">'.$row["Price"].'</h3>
                 <div class="buttons">
-               <button class="btnBuyNow"> <a href="'.$row["Buy_Link"].'" target="_blank" style="text-decoration: none; color: #FFF;">Buy Now</a></button>
+               <button class="btnBuyNow"> <a href="'.$row["Buy_Link"].'" target="_self" style="text-decoration: none; color: #FFF;">Buy Now</a></button>
                     <button class="btnAddToWishlist">Add to Wishlist</button>
                 </div>
                 

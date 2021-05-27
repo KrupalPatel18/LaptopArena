@@ -11,31 +11,31 @@ echo '<div class="footerSection bg-dark text-light">
             <div class="col-6 col-md">
                 <h5>Help</h5>
                 <ul class="list-unstyled text-small  text-light">
-                    <li><a class="text-muted" href="contactus.php" target="_blank">Contact us</a></li>
-                    <li><a class="text-muted" href="aboutus.php" target="_blank">About Us</a></li>
-                    <li><a class="text-muted" href="aboutus.php" target="_blank">Team feature</a></li>
-                    <li><a class="text-muted" href="aboutus.php" target="_blank">Stuff for developers</a></li>
-                    <li><a class="text-muted" href="aboutus.php target="_blank"Another one</a></li>
-                    <li><a class="text-muted" href="aboutus.php" target="_blank">Last time</a></li>
+                    <li><a class="text-muted" href="contactus.php" target="_self">Contact us</a></li>
+                    <li><a class="text-muted" href="aboutus.php" target="_self">About Us</a></li>
+                    <li><a class="text-muted" href="aboutus.php" target="_self">Team feature</a></li>
+                    <li><a class="text-muted" href="aboutus.php" target="_self">Stuff for developers</a></li>
+                    <li><a class="text-muted" href="aboutus.php target="_self"Another one</a></li>
+                    <li><a class="text-muted" href="aboutus.php" target="_self">Last time</a></li>
                 </ul>
             </div>
             <div class="col-6 col-md">
                 <h5>Category</h5>
                 <ul class="list-unstyled text-small  text-light">
-                    <li><a class="text-muted" href="laptop.php" target="_blank">Laptop</a></li>
-                    <li><a class="text-muted" href="Accessories.php" target="_blank">Accessiores</a></li>
-                    <li><a class="text-muted" href="desktop.php" target="_blank">Desktop</a></li>
-                    <li><a class="text-muted" href="custompc.php" target="_blank">Customize PC </a></li>
-                    <li><a class="text-muted" href="tips.php" target="_blank">Tips and Tricks</a></li>
+                    <li><a class="text-muted" href="laptop.php" target="_self">Laptop</a></li>
+                    <li><a class="text-muted" href="Accessories.php" target="_self">Accessiores</a></li>
+                    <li><a class="text-muted" href="desktop.php" target="_self">Desktop</a></li>
+                    <li><a class="text-muted" href="custompc.php" target="_self">Customize PC </a></li>
+                    <li><a class="text-muted" href="tips.php" target="_self">Tips and Tricks</a></li>
                 </ul>
             </div>
             <div class="col-6 col-md">
                 <h5>Social Media</h5>
                 <ul class="list-unstyled text-small  text-light ">
-                    <li><a class="text-muted" href="#" target="_blank">Facebook</a></li>
-                    <li><a class="text-muted" href="#" target="_blank">Instagram</a></li>
-                    <li><a class="text-muted" href="#" target="_blank">Twitter</a></li>
-                    <li><a class="text-muted" href="#" target="_blank">Youtube</a></li>
+                    <li><a class="text-muted" href="#" target="_self">Facebook</a></li>
+                    <li><a class="text-muted" href="#" target="_self">Instagram</a></li>
+                    <li><a class="text-muted" href="#" target="_self">Twitter</a></li>
+                    <li><a class="text-muted" href="#" target="_self">Youtube</a></li>
                 </ul>
             </div>
         </div>
